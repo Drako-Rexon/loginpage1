@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login3</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&display=swap" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans&family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-image: url("https://wallpaperaccess.com/full/439757.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family: 'Lobster', cursive;
+
+        }
+        .loginImg{
+            width: 120px;
+            height: 120px;
+            margin: 200px auto;
+            display: block;
+            margin-bottom: -60px;
+            background-color: none;
+        }
+        .loginBox{
+            display: block;
+            background-color: rgb(20, 20, 51);
+            color: blanchedalmond;
+            font-size: 4em;
+            width: 500px;
+            height: 700px;
+            margin: 00px auto ;
+            padding: 100px;
+            text-align: center;
+        }
+        .username,.pass{
+            display: block;
+            margin: 25px;
+            margin-left: 0px;
+            padding: 10px;
+            width: 350px;
+        }
+        
+        /* .username:hover,.pass:hover{
+            display: block;
+            margin: 25px;
+            margin-left: 0px;
+            padding: 10px;
+            width: 350px;
+            animation-name: uline;
+            animation-duration: 5 s;
+            animation-timing-function: ease-in;
+
+        }
+        @keyframes uline {
+            0%{
+                text-decoration: none;
+            }
+            100%{
+                text-decoration: underline 2px solid red;
+                outline: 5px solid red; 
+            }
+        } */
+        .details{
+            font-size: 0.35em;
+            text-align: left;
+            font-family: 'DM Sans', sans-serif;
+            /* padding: ; */
+            margin: 100px;
+            margin-left: 0px;
+        }
+        .forgetPass,.register{
+            text-decoration: none;
+            color: cornsilk;
+            display: block;
+            margin: 15px;
+            margin-left: 0px;
+        }
+        .copy{
+            font-size: 10em ;
+            color: cornsilk;
+            font-family:'Times New Roman', Times, serif ;
+        }
+        .fb,.google{
+            display: block;
+            margin: 30px auto ;
+            color: white;
+            width: 400px;
+            height: 60px;
+            font-size: 25px;
+            border-radius: 15px;
+        }
+        .google{
+            margin-top: 0px;
+            background-color: red;
+        }
+        .fb{
+            background-color: blue;
+        }
+        .foot{
+            height: 300px;
+        }
+        .fb:hover,.google:hover{
+            cursor: pointer;
+        }
+        input{
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <img class="loginImg" src="https://cengage.force.com/resource/1607465003000/loginIcon" alt="Login Image">
+    <div class="loginBox">
+        
+        
+        Login
+        <form action="" class="details">
+            Enter username
+            <input type="text" class="username" placeholder="Username">
+            Enter password
+            <input type="password" class="pass" placeholder="Password">
+            <a href="#" class="forgetPass">Forget password?</a>
+            <a href="#" class="register">Don't have account? Register here</a>
+        </form>
+        <div class="loginSocial">
+            <button class="google">
+                Login with Google+
+            </button>
+            <button class="fb">
+                Login with Facebook
+            </button>
+        </div>
+    </div>
+    <footer class="foot">
+        <!-- <div class="copy">copyright</div> -->
+    </footer>
+</body>
+</html>
